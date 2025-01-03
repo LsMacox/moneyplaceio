@@ -1,8 +1,9 @@
 package client
 
 import (
-	st "analytic-tools/moneyplace/structures"
 	"fmt"
+
+	st "github.com/LsMacox/moneyplaceio/structures"
 )
 
 func GetCategories(client *Client, params st.CategoriesParams) ([]st.CategoryResponse, error) {

@@ -1,8 +1,9 @@
 package client
 
 import (
-	st "analytic-tools/moneyplace/structures"
 	"fmt"
+
+	st "github.com/LsMacox/moneyplaceio/structures"
 )
 
 func GetProducts(client *Client, params st.ProductsParams) ([]st.ProductResponse, error) {
